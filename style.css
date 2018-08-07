@@ -1,0 +1,395 @@
+
+/* general */
+
+
+body
+{
+    font-family: sans-serif;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+.First-part_container, .second-part_container, .third-part_container
+{
+    flex-direction: column;
+}
+
+/* header */
+
+header
+{
+    position: relative;
+    background-color: #ec8d24;
+    height: 95px;
+    display: flex;
+    z-index: 1;
+}
+#logo
+{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+#logo img
+{
+    width: 148px;
+    height: 174px;
+    border: solid 5px #ec8d24;
+    border-top: none;
+}
+header nav
+{
+    flex-grow: 3;
+}
+header nav ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    padding: 0 50px;
+}
+.nav
+{
+    text-decoration: none;
+    color: white;
+}
+.nav:hover
+{
+    color: brown;
+}
+
+
+/* first_part */
+
+
+.First-part_container
+{
+    position: relative;
+    background: url('images/1112.jpg');
+    height: 670px;
+    width: 100%;
+}
+.slider_container
+{
+    position: absolute;
+    display: flex;
+    top: 300px;
+    right: 50px;
+    height: 300px;
+    width: 450px ;
+    background: rgba(255, 255, 255, 0.7);
+}
+.aside
+{
+    height: 280px;
+    width: 205px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    color: #a99;
+}
+.aside_title
+{
+    color: #ec8d24;
+    text-align: center;
+    text-transform: uppercase;
+}
+.aside_img
+{
+    border-radius: 50%;
+    height: 150px;
+    margin: 30px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/* .second-part */
+
+.second-part_container
+{
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+.welcome
+{
+   display: flex;
+   flex-wrap: wrap;
+   padding: 50px;
+   justify-content: space-between;
+}
+.welcome_top
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.frame-aside_container
+{
+    display: flex;
+    width: 100%;
+}
+.frame, .welcome_aside
+{
+    justify-content: space-between;
+}
+.welcome_top h1, p
+{
+    text-align: center;
+}
+
+.frame
+{
+    display: flex;
+    width: 55%;
+    padding: 5px;
+    margin: auto;
+    border: solid 5px white;
+    box-shadow: 5px 5px 5px gray;
+
+}
+.port 
+{
+    height: 230px;
+}
+.port-1 
+{
+    background-image: url('images/port-1.jpg');
+    width:350px;
+    height: 230px; 
+}
+.frame_h2
+{
+    position: relative;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.205);
+    text-align: center;
+    margin: 100px 20% 100px 5%;
+    padding: auto;
+}
+.port-2
+{
+    background-image: url('images/port-2.jpg');
+
+   flex-grow: 1;
+}
+.port-3 
+{
+    background-image: url('images/port-3.jpg');
+
+    flex-grow: 1;
+}
+.port-4
+{
+    background-image: url('images/port-4.jpg');
+
+    flex-grow: 1;
+}
+.port-5
+{
+    background-image: url('images/port-5.jpg');
+
+    flex-grow: 1;
+}
+.port-6
+{
+    background-image: url('images/port-6.jpg');
+
+    flex-grow: 1;
+}
+.port-7
+{
+    background-image: url('images/port-7.jpg');
+
+    flex-grow: 1;
+}
+.port-8
+{
+    background-image: url('images/port-8.jpg');
+
+    flex-grow: 1;
+}
+.welcome_aside
+{
+    width: 35%;
+    margin: auto;
+}
+.welcome_aside h2, p
+{
+    text-align: justify;
+}
+.welcome_container_2
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+.w_c_2_salads
+{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 15px;
+}
+.wc2_salad1
+{
+    background-image: url('images/o-1.jpg');
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: auto;
+}
+.welcome_container_2 .w_c_2_salads .wc2_salad1 p
+{
+    position: absolute;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.205);
+       
+}
+.wc2_salad2
+{
+    background-image: url('images/o-2.jpg');
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.welcome_container_2 .w_c_2_salads .wc2_salad2 p
+{
+    position: absolute;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.205);
+    
+}
+.wc2_salad3
+{
+    background-image: url('images/o-3.jpg');
+    width: 250px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.welcome_container_2 .w_c_2_salads .wc2_salad3 p
+{
+    position: absolute;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.205);
+   
+}
+.wc2_salad4
+{
+    background-image: url('images/o-5.jpg');
+    width: 250px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.welcome_container_2 .w_c_2_salads .wc2_salad4 p
+{
+    position: absolute;
+    color: white;
+    background-color: rgba(56, 54, 54, 0.205);  
+}
+.third-part_container
+{
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 150px;
+}
+.read-more_container
+{
+    display: flex;
+}
+.read-more h2
+{
+    color: #ec8d24;
+}
+.read-more, h2 p
+{
+    text-align: justify;
+    justify-content: center;
+    padding: 0px 35px 35px 35px;
+}
+.button
+{
+    background-color: #444444;
+    color: white;
+}
+.radial_container
+{
+    position: relative;
+    background: url('images/nature.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 300px;
+    margin: 0px;
+    padding: 0%;
+}
+.radial_text
+{
+    position: absolute;
+    width: 50%;
+    padding: 50px;
+    right: 0;
+    background-color: rgba(236, 141, 36, 0.5);
+    color: white;
+    font-size: 0.8em;
+    height: 200px;
+    width: 550px;
+}
+footer
+{
+    position: relative;
+    top: 100px;
+    background-color: #29292a;
+}
+.footer-nav_container
+{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer-nav nav ul
+{
+    list-style-type: none;
+    -webkit-padding-start: 0;
+}
+
+
+.nav-icons_container
+{
+    display: flex;
+    align-items: flex-start;
+}
+.nav-icons_container nav
+{
+    position: relative;
+    
+}
+.footer-nav nav ul li
+{
+    line-height: 25px;
+}
+.footer-nav nav ul li a
+{
+    text-decoration: none;
+    color: grey;
+}
+.nav-icons_container img
+{
+    position: relative;
+    height: 62px ;
+    width: 14px;
+}
+.footer_copyright
+{
+    background-color: #ec8d24;
+    height: 45px;
+}
